@@ -1,24 +1,53 @@
-# Compiled class file
-*.class
+# Help files
+HELP.md
 
-# Log file
-*.log
+# General compilation folders
+**/target/
+**/build/
 
-# BlueJ files
-*.ctxt
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# STS (Spring Tool Suite)
+**/.apt_generated/
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings/
+**/.springBeans
+**/.sts4-cache/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# IntelliJ IDEA
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# VS Code
+**/.vscode/
+
+# Files common to Java projects
+**/*.class
+**/*.log
+**/*.jar
+**/*.war
+**/*.nar
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.rar
+**/hs_err_pid*
+**/replay_pid*
