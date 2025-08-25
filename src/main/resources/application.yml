@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ms-credit-request
+  profiles:
+    active: dev
+
+application:
+  title: CreditYa Credit Request Microservice
+  version: 1.0.0
+
+server:
+  port: 8081
